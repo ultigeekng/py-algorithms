@@ -18,12 +18,12 @@ def getIntegerComplement(n):
         iter_mid = iter_num/2
         first = temp1[0: iter_mid]
         second = temp1[iter_mid: iter_num]
-        if returnList(first) == returnList(second):
+        if returnSumOfList(first) == returnSumOfList(second):
           return iter_num, temp1
     iter_num -= 2
   return 0
 
-def returnList(sub_sub_string):
+def returnSumOfList(sub_sub_string):
   """This wil return the sum of all the integers in the passed string"""
   sum_string_integers = 0
   for i in  [int(j) for j in str(sub_sub_string)]:
