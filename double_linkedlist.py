@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 class DListNode(object):
-    """Singly-linked list node"""
+    """Doubly-linked list node"""
     def __init__(self, my_data=None):
         self.nex = None
         self.pre = None
