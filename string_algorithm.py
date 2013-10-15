@@ -1,4 +1,4 @@
-def getIntegerComplement(n):
+def getSubString(n):
   """This is simple logic for getting max substring in a string 
      whose sum of first and second half should be equal and the
      sub string should be of maximum length
@@ -30,4 +30,4 @@ def returnSumOfStringIntegers(sub_sub_string):
     sum_string_integers += i
   return sum_string_integers
 
-print getIntegerComplement("986561517416921217551395112859219257312")
+print getSubString("986561517416921217551395112859219257312")
